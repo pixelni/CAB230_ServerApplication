@@ -21,8 +21,8 @@ const userRoutes = require('./routes/users');
 const customRoutes = require('./routes/custom');
 
 // Use Routes
-app.use('/api/volcanoes', volcanoRoutes);
-app.use('/api/users', userRoutes);
+app.use('/', volcanoRoutes);
+app.use('/user', userRoutes);
 app.use('/api/custom', customRoutes);
 
 // Swagger docs route

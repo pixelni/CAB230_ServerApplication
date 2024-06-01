@@ -5,9 +5,9 @@ module.exports = {
     client: 'mysql2',
     connection: {
       host: process.env.DB_HOST || 'localhost',
-      user: process.env.DB_USER || 'your_username',
-      password: process.env.DB_PASSWORD || 'your_password',
-      database: process.env.DB_NAME || 'your_database'
+      user: process.env.DB_USER || 'root',
+      password: process.env.DB_PASSWORD || 'securepassword',
+      database: process.env.DB_NAME || 'volcanoes'
     },
     migrations: {
       tableName: 'knex_migrations',
@@ -21,9 +21,9 @@ module.exports = {
     client: 'mysql2',
     connection: {
       host: process.env.DB_HOST || 'localhost',
-      user: process.env.DB_USER || 'your_username',
-      password: process.env.DB_PASSWORD || 'your_password',
-      database: process.env.DB_NAME || 'your_database'
+      user: process.env.DB_USER || 'root',
+      password: process.env.DB_PASSWORD || 'securepassword',
+      database: process.env.DB_NAME || 'volcanoes'
     },
     migrations: {
       tableName: 'knex_migrations',
